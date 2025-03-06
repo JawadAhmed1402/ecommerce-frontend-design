@@ -27,13 +27,14 @@ and great user experience.
 **• JavaScript (ES6+)** ⚡ - Adding interactivity      
 
 ## 📂 Project Structure         
-  ```sh
+    ```sh
   📦 ecommerce-frontend     
-  ┣ 📂 assets          # Images, icons, and fonts        
-  ┣ 📂 components      # Reusable UI components (React-based, if used)       
-  ┣ 📂 pages          # Individual pages (Home, Product, Cart, etc.)       
-  ┣ 📜 index.html     # Main HTML file      
-  ┣ 📜 style.css      # Global CSS styles       
-  ┣ 📜 script.js      # JavaScript for interactivity       
-  ┗ 📜 README.md      # Project documentation
+   ┣ 📂 assets          # Images, icons, and fonts        
+   ┣ 📂 components      # Reusable UI components (React-based, if used)       
+   ┣ 📂 pages          # Individual pages (Home, Product, Cart, etc.)       
+   ┣ 📜 index.html     # Main HTML file      
+   ┣ 📜 style.css      # Global CSS styles       
+   ┣ 📜 script.js      # JavaScript for interactivity       
+   ┗ 📜 README.md      # Project documentation
      
+## sad
