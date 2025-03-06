@@ -27,7 +27,7 @@ and great user experience.
 **• JavaScript (ES6+)** ⚡ - Adding interactivity      
 
 ## 📂 Project Structure         
-     ```sh
+      ```sh
       📦 ecommerce-frontend     
        ┣ 📂 assets          # Images, icons, and fonts        
        ┣ 📂 components      # Reusable UI components (React-based, if used)       
