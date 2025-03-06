@@ -55,7 +55,7 @@ and great user experience.
 ## 🤝 Contribution
 
 Contributions are welcome! Please follow these steps:   
-    ```sh       
+      ```sh
       **Fork the repository** 🍴      
       **Create a new branch**      
       git checkout -b feature-branch 🌿        
