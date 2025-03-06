@@ -52,21 +52,50 @@ and great user experience.
 
 • Ensure images and assets are correctly linked.  
 
-## 🤝 Contribution
+# 🤝 Contribution Guide
 
-Contributions are welcome! Please follow these steps:    
-       ```sh      
-        # Fork the repository 🍴       
-        # Create a new branch       
-        git checkout -b feature-branch 🌿        
-        # Commit your changes       
-        git commit -m 'Add new feature' 💾       
-        # Push to the branch         
-        git push origin feature-branch 🚀       
-       
+We welcome contributions to improve the **E-Commerce Website - Frontend** project! Follow these steps to get started:
 
-Submit a Pull Request 📩         
+## 📝 How to Contribute
 
+1. **Fork the Repository** 🍴  
+   Click the “Fork” button at the top-right corner of the repository page.
+
+2. **Clone the Repository** 🔽  
+   Open your terminal and run the following command:
+   ```sh
+   git clone https://github.com/JawadAhmed1402/ecommerce-frontend-design.git
+   cd ecommerce-frontend
+3. **Create a New Branch** 🌿
+   Run the following command to create and switch to a new feature branch:
+   ```sh
+   git checkout -b feature-branch
+
+4. **Make Changes & Commit** 💾
+   Modify the necessary files and commit your changes:
+   ```sh
+   git commit -m "Add new feature"
+
+5. **Push to GitHub 🚀**
+   Push the changes to your forked repository:
+   ```sh
+   git push origin feature-branch
+
+6. **Create a Pull Request 📩**
+ 
+   • Navigate to the original repository on GitHub.    
+   • Click on **Pull Requests** > **New Pull Request**.    
+   • Select your branch and submit the request for review.
+   
+## ✅ Contribution Guidelines
+   • Follow best practices for writing clean and maintainable code.     
+   • Ensure all new features are responsive and accessible.       
+   • Test your changes before submitting a pull request.      
+   • Provide clear commit messages describing your changes.       
+
+Thank you for contributing! 🎉      
+    
+  
 ## 📜 License       
 
 This project is licensed under the MIT License.       
