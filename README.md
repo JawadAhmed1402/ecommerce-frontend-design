@@ -54,15 +54,16 @@ and great user experience.
 
 ## 🤝 Contribution
 
-Contributions are welcome! Please follow these steps:   
-      ```sh        
+Contributions are welcome! Please follow these steps:    
+       ```sh
        **Fork the repository** 🍴      
        **Create a new branch**      
        git checkout -b feature-branch 🌿        
        **Commit your changes**      
        git commit -m 'Add new feature' 💾       
        **Push to the branch**        
-       git push origin feature-branch 🚀        
+       git push origin feature-branch 🚀       
+       
 
 Submit a Pull Request 📩         
 
