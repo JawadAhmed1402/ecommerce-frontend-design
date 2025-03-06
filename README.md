@@ -88,10 +88,10 @@ We welcome contributions to improve the **E-Commerce Website - Frontend** projec
    • Select your branch and submit the request for review.
    
 ## ✅ Contribution Guidelines
-         • Follow best practices for writing clean and maintainable code.     
-         • Ensure all new features are responsive and accessible.       
-         • Test your changes before submitting a pull request.      
-         • Provide clear commit messages describing your changes.       
+      • Follow best practices for writing clean and maintainable code.     
+      • Ensure all new features are responsive and accessible.       
+      • Test your changes before submitting a pull request.      
+      • Provide clear commit messages describing your changes.       
 
 Thank you for contributing! 🎉      
     
