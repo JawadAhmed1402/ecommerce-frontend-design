@@ -31,11 +31,11 @@ and great user experience.
       📦 ecommerce-frontend      
        ┣ 📂 assets          # Images, icons, and fonts        
        ┣ 📂 components      # Reusable UI components (React-based, if used)       
-       ┣ 📂 pages          # Individual pages (Home, Product, Cart, etc.)       
-       ┣ 📜 index.html     # Main HTML file      
-       ┣ 📜 style.css      # Global CSS styles       
-       ┣ 📜 script.js      # JavaScript for interactivity       
-       ┗ 📜 README.md      # Project documentation      
+       ┣ 📂 pages           # Individual pages (Home, Product, Cart, etc.)       
+       ┣ 📜 index.html      # Main HTML file      
+       ┣ 📜 style.css       # Global CSS styles       
+       ┣ 📜 script.js       # JavaScript for interactivity       
+       ┗ 📜 README.md       # Project documentation      
      
 ## 🚀 Getting Started        
 
@@ -56,12 +56,12 @@ and great user experience.
 
 Contributions are welcome! Please follow these steps:    
        ```sh
-       **Fork the repository** 🍴      
-       **Create a new branch**      
+       # Fork the repository 🍴       
+       # Create a new branch       
        git checkout -b feature-branch 🌿        
-       **Commit your changes**      
+       # Commit your changes       
        git commit -m 'Add new feature' 💾       
-       **Push to the branch**        
+       # Push to the branch         
        git push origin feature-branch 🚀       
        
 
