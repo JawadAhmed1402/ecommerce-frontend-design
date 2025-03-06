@@ -56,13 +56,13 @@ and great user experience.
 
 Contributions are welcome! Please follow these steps:   
     ```sh
-    **Fork the repository** 🍴
-    **Create a new branch**
-    git checkout -b feature-branch 🌿
-    **Commit your changes**
-    git commit -m 'Add new feature' 💾
-    **Push to the branch**
-    git push origin feature-branch 🚀      
+     **Fork the repository** 🍴      
+     **Create a new branch**      
+     git checkout -b feature-branch 🌿        
+     **Commit your changes**      
+     git commit -m 'Add new feature' 💾       
+     **Push to the branch**        
+     git push origin feature-branch 🚀        
 
 Submit a Pull Request 📩         
 
@@ -73,7 +73,7 @@ This project is licensed under the MIT License.
 ## 📞 Contact     
 
 For any queries or suggestions, feel free to reach out! 📧 Email: ja3242378@gmail.com       
-📌 [LinkedIn]()
+📌 [LinkedIn](www.linkedin.com/in/jawad-ahmed-1261912a8/)
 
 Happy Coding! 🎉      
 
