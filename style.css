@@ -187,6 +187,7 @@ main {
   padding-left: 5%;
 }
 #categoryNlogin #category ul li:hover {
+  transition: all smooth 0.2s;
   font-weight: bold;
   background-color: rgb(229, 241, 254);
 }
@@ -197,8 +198,90 @@ main {
   height: 10%;
 }
 #categoryNlogin #login {
-  width: 22%;
+  width: 25%;
   margin-left: 1%;
   margin-right: 1%;
   height: auto;
+}
+#categoryNlogin #login #topUp-1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: auto;
+  padding-left: 10%;
+  border-radius: 8px;
+  padding-right: 10%;
+  background-color: rgb(228, 240, 254);
+}
+#categoryNlogin #login #topUp-1 div {
+  font-size: 1vw;
+  background-color: rgb(228, 240, 254);
+  display: flex;
+  align-items: center;
+}
+#categoryNlogin #login #topUp-1 div img {
+  width: 21%;
+  height: 21%;
+}
+#categoryNlogin #login #topUp-1 div p {
+  margin-left: 5%;
+}
+#categoryNlogin #login #topUp-1 .joinBtn {
+  cursor: pointer;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+  background-color: #1170fb;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  font-size: 0.9vw;
+}
+#categoryNlogin #login #topUp-1 .joinBtn:hover {
+  transform: scale(1.05);
+  transition: all smooth 0.2;
+}
+#categoryNlogin #login #topUp-1 .logBtn {
+  color: #1170fb;
+  background-color: white;
+  font-size: 0.9vw;
+  margin-bottom: 2%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#categoryNlogin #login #topUp-1 .logBtn:hover {
+  transform: scale(1.05);
+  transition: all smooth 0.2;
+}
+#categoryNlogin #login #topUp-2 {
+  display: flex;
+  align-items: center;
+  height: 22.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 8px;
+  font-size: 1vw;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgb(243, 130, 49);
+}
+#categoryNlogin #login #topUp-3 {
+  display: flex;
+  align-items: center;
+  height: 22.5%;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 1vw;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #56bdc4;
 }
