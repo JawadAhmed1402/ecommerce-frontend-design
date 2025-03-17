@@ -358,7 +358,7 @@ main {
   padding-bottom: 2%;
 }
 /* Section: Home and Outdoor Products */
-#homeNoutProducts {
+#interiorProducts {
   margin-top: 1.5%;
   width: 77%;
   display: flex;
@@ -370,13 +370,292 @@ main {
   background-color: white;
   padding-bottom: 0%;
   border: 0.1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
-#homeNoutProducts #imgDiv {
-  width: 23.75%;
+#interiorProducts #imgDiv {
+  width: 31.5%;
   height: auto;
 }
-#homeNoutProducts #imgDiv img {
+#interiorProducts .left-asideimg {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+#interiorProducts #products {
+  width: 100%;
+  height: auto;
+}
+#interiorProducts #products #first-row {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+#interiorProducts #products #first-row .Intproducts {
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+#interiorProducts #products #first-row div {
+  /* width: 25%; */
+  justify-content: space-between;
+  text-align: left;
+}
+#interiorProducts #products #first-row div .heading {
+  font-size: 0.9vw;
+  margin-bottom: 15%;
+  font-weight: bold;
+}
+#interiorProducts #products #first-row div .price {
+  font-size: 0.85vw;
+  opacity: 0.6;
+  margin-bottom: 15%;
+}
+#interiorProducts #products #first-row div img {
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+}
+
+#interiorProducts #products #second-row {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+#interiorProducts #products #second-row .Intproducts {
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+#interiorProducts #products #second-row div {
+  /* width: 25%; */
+  justify-content: space-between;
+  text-align: left;
+}
+#interiorProducts #products #second-row div .heading {
+  font-size: 0.9vw;
+  margin-bottom: 15%;
+  font-weight: bold;
+}
+#interiorProducts #products #second-row div .price {
+  font-size: 0.85vw;
+  opacity: 0.6;
+  margin-bottom: 15%;
+}
+#interiorProducts #products #second-row div img {
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+}
+
+/* Section: Tech Products */
+#techProducts {
+  margin-top: 1.5%;
+  width: 77%;
+  display: flex;
+  height: auto;
+  margin-left: 11%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 11%;
+  background-color: white;
+  padding-bottom: 0%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1%;
+}
+#techProducts #imgDiv {
+  width: 31.5%;
+  height: auto;
+}
+#techProducts .left-asideimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#techProducts #products {
+  width: 100%;
+  height: auto;
+}
+#techProducts #products #first-row {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+#techProducts #products #first-row .Intproducts {
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+#techProducts #products #first-row div {
+  /* width: 25%; */
+  justify-content: space-between;
+  text-align: left;
+}
+#techProducts #products #first-row div .heading {
+  font-size: 0.9vw;
+  margin-bottom: 15%;
+  font-weight: bold;
+}
+#techProducts #products #first-row div .price {
+  font-size: 0.85vw;
+  opacity: 0.6;
+  margin-bottom: 15%;
+}
+#techProducts #products #first-row div img {
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+}
+
+#techProducts #products #second-row {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+#techProducts #products #second-row .Intproducts {
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+#techProducts #products #second-row div {
+  /* width: 25%; */
+  justify-content: space-between;
+  text-align: left;
+}
+#techProducts #products #second-row div .heading {
+  font-size: 0.9vw;
+  margin-bottom: 15%;
+  font-weight: bold;
+}
+#techProducts #products #second-row div .price {
+  font-size: 0.85vw;
+  opacity: 0.6;
+  margin-bottom: 15%;
+}
+#techProducts #products #second-row div img {
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+}
+/* Section: Request form to supplier */
+#supplierRequestSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  width: 71%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-top: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 0.75%;
+  background: url(./Assets/Image/Group\ 982.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+#supplierRequestSection #titleNtext h1 {
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+#supplierRequestSection #titleNtext p {
+  color: white;
+  margin-bottom: 1%;
+  font-size: 0.9vw;
+}
+#supplierRequestSection #requestForm {
+  background-color: white;
+  padding: 1% 1%;
+  border-radius: 5px;
+  width: 40%;
+  margin-bottom: 3%;
+}
+#supplierRequestSection #requestForm h3 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1vw;
+}
+#supplierRequestSection #requestForm input {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* margin-right: 50%; */
+  /* background-color: black; */
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  width: 96%;
+  height: 4vh;
+  border-radius: 5px;
+  font-size: 0.9vw;
+  padding-left: 2%;
+}
+#supplierRequestSection #requestForm #details {
+  /* height: 10vh; */
+  padding-bottom: 10%;
+}
+#supplierRequestSection #requestForm #quntNpc {
+  display: flex;
+  width: 70%;
+}
+#supplierRequestSection #requestForm #quntNpc input {
+  margin-right: 1%;
+}
+::placeholder {
+  opacity: 1;
+}
+#supplierRequestSection #requestForm #Send {
+  width: 25%;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+  background-color: #1170fb;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  font-size: 0.9vw;
+}
+#supplierRequestSection #requestForm #Send:hover {
+  transform: scale(1.02);
+  transition: all smooth 0.2;
+}
+
+/* Section: Recommended Items */
+#recommendedItems {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  width: 71%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  /* padding-top: 3%; */
+  padding-bottom: 0.75%;
+  /* border-radius: 5px; */
 }
