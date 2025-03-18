@@ -652,7 +652,7 @@ main {
 /* Section: Recommended Items */
 #recommendedItems {
   margin-top: 1.5%;
-  margin-bottom: 1.5%;
+  margin-bottom: 1%;
   /* width: 71%; */
   height: auto;
   margin-left: 11%;
@@ -668,6 +668,10 @@ main {
   /* width: 100%; */
   height: auto;
   /* background-color: black; */
+}
+#recommendedItems #products .recomdProd:hover {
+  transform: rotate(90turn) scale(1.05);
+  transition: all smooth 0.2s;
 }
 #recommendedItems #products #first-row {
   margin-top: 1%;
@@ -724,9 +728,6 @@ main {
   border: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 #recommendedItems #products #second-row div img {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: relative;
   left: 25%;
   width: 50%;
@@ -741,4 +742,152 @@ main {
 #recommendedItems #products #second-row div .description {
   opacity: 0.5;
   font-size: 0.8vw;
+}
+
+/* Section: Our extra services */
+#extraService {
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+  width: 71%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-bottom: 0.75%;
+}
+#extraService h2 {
+  font-size: 1.4vw;
+}
+
+/* Footer */
+
+/* Section: Subscription */
+#subscription {
+  /* padding: 5% 5%; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  background-color: rgb(226, 226, 229);
+}
+#subscription h2 {
+  font-size: 1.4vw;
+  margin-bottom: 0.25%;
+}
+#subscription p {
+  font-size: 0.9vw;
+  opacity: 0.6;
+  margin-bottom: 0.5%;
+}
+#subscription div {
+  padding-top: 0.5%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+#subscription div input {
+  border: none;
+  /* height: 50%; */
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  width: 12%;
+  font-size: 0.9vw;
+  padding-left: 1%;
+  border-radius: 5px;
+  margin-right: 0.5%;
+}
+#subscription div p {
+  margin-bottom: 0%;
+  text-align: center;
+  font-size: 0.9vw;
+  opacity: 1;
+  padding: 0.5% 0.5%;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #1170fb;
+}
+#subscription div p:hover {
+  transform: scale(1.02);
+  transition: all smooth 0.2;
+}
+/*  Section: ABouts */
+#abouts {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 77%;
+  height: auto;
+  display: flex;
+  margin-bottom: 2%;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+#abouts h3 {
+  font-size: 1.1vw;
+}
+#abouts #socials {
+  margin-left: 0%;
+  margin-right: 5%;
+  width: 30%;
+}
+#abouts #socials img {
+  width: 50%;
+  cursor: pointer;
+
+  height: auto;
+}
+#abouts #socials p {
+  font-size: 0.9vw;
+  opacity: 0.6;
+}
+#abouts #logos {
+  margin-top: 3%;
+  display: flex;
+}
+#abouts #logos img {
+  height: auto;
+  margin-right: 5%;
+  width: 8%;
+}
+#abouts .info {
+  width: 20%;
+}
+#abouts .info ul li {
+  cursor: pointer;
+  opacity: 0.6;
+  font-size: 0.9vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#abouts .info img {
+  cursor: pointer;
+  width: 60%;
+  margin-bottom: 0%;
+  /* text-align: left; */
+  margin-left: -5%;
+  /* height: auto; */
+}
+/* Section: CopyRight bar */
+#copyright {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 78%;
+
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(226, 226, 229);
+  padding-left: 11%;
+  padding-right: 11%;
+  /* margin-left: 11%;
+  margin-right: 11%; */
+}
+#copyright p {
+  font-size: 0.9vw;
+}
+#copyright img {
+  width: 15%;
 }
