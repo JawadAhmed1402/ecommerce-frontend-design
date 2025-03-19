@@ -29,7 +29,6 @@ body {
 }
 #searchbarNBtn {
   display: flex;
-  /* align-items: center; */
   width: 40%;
   height: 5vh;
   margin-right: 1%;
@@ -78,7 +77,6 @@ input:focus {
 }
 #nav-bar #searchbarNBtn #dropdown-content a {
   margin-left: 4%;
-  /* margin-right: 2.5%; */
   width: 80%;
   color: black;
   border-radius: 0.25pc;
@@ -300,7 +298,6 @@ main {
   width: 22%;
   height: auto;
   padding-left: 2%;
-  /* margin-right: 1%; */
   font-size: 0.9vw;
   padding-top: 0.75%;
   padding-bottom: 0.75%;
@@ -390,44 +387,12 @@ main {
   display: flex;
   height: auto;
 }
-#interiorProducts #products #first-row .Intproducts {
-  display: flex;
-  cursor: pointer;
-  text-align: center;
-  width: auto;
-  border: 0.1px solid rgba(0, 0, 0, 0.1);
-  height: 100%;
-  width: 100%;
-  padding-left: 1%;
-  padding-top: 1%;
-}
-#interiorProducts #products #first-row div {
-  /* width: 25%; */
-  justify-content: space-between;
-  text-align: left;
-}
-#interiorProducts #products #first-row div .heading {
-  font-size: 0.9vw;
-  margin-bottom: 15%;
-  font-weight: bold;
-}
-#interiorProducts #products #first-row div .price {
-  font-size: 0.85vw;
-  opacity: 0.6;
-  margin-bottom: 15%;
-}
-#interiorProducts #products #first-row div img {
-  margin-top: 12%;
-  width: 50%;
-  height: auto;
-}
-
 #interiorProducts #products #second-row {
   width: 100%;
   display: flex;
   height: auto;
 }
-#interiorProducts #products #second-row .Intproducts {
+#interiorProducts #products .Intproducts {
   display: flex;
   cursor: pointer;
   text-align: center;
@@ -438,22 +403,21 @@ main {
   padding-left: 1%;
   padding-top: 1%;
 }
-#interiorProducts #products #second-row div {
-  /* width: 25%; */
+#interiorProducts #products div {
   justify-content: space-between;
   text-align: left;
 }
-#interiorProducts #products #second-row div .heading {
+#interiorProducts #products div .heading {
   font-size: 0.9vw;
   margin-bottom: 15%;
   font-weight: bold;
 }
-#interiorProducts #products #second-row div .price {
+#interiorProducts #products div .price {
   font-size: 0.85vw;
   opacity: 0.6;
   margin-bottom: 15%;
 }
-#interiorProducts #products #second-row div img {
+#interiorProducts #products div img {
   margin-top: 12%;
   width: 50%;
   height: auto;
@@ -492,44 +456,12 @@ main {
   display: flex;
   height: auto;
 }
-#techProducts #products #first-row .Intproducts {
-  display: flex;
-  cursor: pointer;
-  text-align: center;
-  width: auto;
-  border: 0.1px solid rgba(0, 0, 0, 0.1);
-  height: 100%;
-  width: 100%;
-  padding-left: 1%;
-  padding-top: 1%;
-}
-#techProducts #products #first-row div {
-  /* width: 25%; */
-  justify-content: space-between;
-  text-align: left;
-}
-#techProducts #products #first-row div .heading {
-  font-size: 0.9vw;
-  margin-bottom: 15%;
-  font-weight: bold;
-}
-#techProducts #products #first-row div .price {
-  font-size: 0.85vw;
-  opacity: 0.6;
-  margin-bottom: 15%;
-}
-#techProducts #products #first-row div img {
-  margin-top: 12%;
-  width: 50%;
-  height: auto;
-}
-
 #techProducts #products #second-row {
   width: 100%;
   display: flex;
   height: auto;
 }
-#techProducts #products #second-row .Intproducts {
+#techProducts #products .Intproducts {
   display: flex;
   cursor: pointer;
   text-align: center;
@@ -540,26 +472,26 @@ main {
   padding-left: 1%;
   padding-top: 1%;
 }
-#techProducts #products #second-row div {
-  /* width: 25%; */
+#techProducts #products div {
   justify-content: space-between;
   text-align: left;
 }
-#techProducts #products #second-row div .heading {
+#techProducts #products div .heading {
   font-size: 0.9vw;
   margin-bottom: 15%;
   font-weight: bold;
 }
-#techProducts #products #second-row div .price {
+#techProducts #products div .price {
   font-size: 0.85vw;
   opacity: 0.6;
   margin-bottom: 15%;
 }
-#techProducts #products #second-row div img {
+#techProducts #products div img {
   margin-top: 12%;
   width: 50%;
   height: auto;
 }
+
 /* Section: Request form to supplier */
 #supplierRequestSection {
   display: flex;
@@ -606,19 +538,15 @@ main {
 #supplierRequestSection #requestForm input {
   margin-top: 2%;
   margin-bottom: 2%;
-  /* margin-right: 50%; */
-  /* background-color: black; */
   border: 0.1px solid rgba(0, 0, 0, 0.1);
   width: 96%;
-  /* height: 1%; */
   padding-top: 1%;
   padding-bottom: 1%;
-  border-radius: 5px;
+  border-radius: 5%;
   font-size: 0.9vw;
   padding-left: 2%;
 }
 #supplierRequestSection #requestForm #details {
-  /* height: 10vh; */
   padding-bottom: 10%;
 }
 #supplierRequestSection #requestForm #quntNpc {
@@ -641,7 +569,7 @@ main {
   background-color: #1170fb;
   padding-top: 1%;
   padding-bottom: 1%;
-  border-radius: 5px;
+  border-radius: 4%;
   font-size: 0.9vw;
 }
 #supplierRequestSection #requestForm #Send:hover {
@@ -653,21 +581,16 @@ main {
 #recommendedItems {
   margin-top: 1.5%;
   margin-bottom: 1%;
-  /* width: 71%; */
   height: auto;
   margin-left: 11%;
   margin-right: 11%;
-  /* padding-top: 3%; */
   padding-bottom: 0.75%;
-  /* border-radius: 5px; */
 }
 #recommendedItems h2 {
   font-size: 1.4vw;
 }
 #recommendedItems #products {
-  /* width: 100%; */
   height: auto;
-  /* background-color: black; */
 }
 #recommendedItems #products .recomdProd:hover {
   transform: rotate(90turn) scale(1.05);
@@ -676,7 +599,6 @@ main {
 #recommendedItems #products #first-row {
   margin-top: 1%;
   margin-bottom: 1%;
-  /* width: 100%; */
   display: flex;
   height: auto;
 }
@@ -687,13 +609,9 @@ main {
   padding: 1% 1%;
   margin-right: 1%;
   background-color: white;
-  /* background-color: 0; */
   border: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 #recommendedItems #products #first-row div img {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: relative;
   left: 25%;
   width: 50%;
@@ -713,7 +631,6 @@ main {
 #recommendedItems #products #second-row {
   margin-top: 1%;
   margin-bottom: 1%;
-  /* width: 100%; */
   display: flex;
   height: auto;
 }
@@ -724,7 +641,6 @@ main {
   padding: 1% 1%;
   margin-right: 1%;
   background-color: white;
-  /* background-color: 0; */
   border: 0.1px solid rgba(0, 0, 0, 0.1);
 }
 #recommendedItems #products #second-row div img {
@@ -748,7 +664,7 @@ main {
 #extraService {
   margin-top: 1%;
   margin-bottom: 1.5%;
-  width: 71%;
+  /* width: 71%; */
   height: auto;
   margin-left: 11%;
   margin-right: 11%;
@@ -756,13 +672,94 @@ main {
 }
 #extraService h2 {
   font-size: 1.4vw;
+  margin-bottom: 1%;
+}
+#extraService div {
+  display: flex;
+  justify-content: space-between;
+}
+#extraService div article {
+  margin-top: 1%;
+  background-color: white;
+  width: 25%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  height: auto;
+  margin-right: 1%;
+  cursor: pointer;
+}
+#extraService div article:hover {
+  transform: scale(1.05);
+}
+#extraService div article img {
+  height: 60%;
+  width: 100%;
+}
+#extraService div article div {
+  /* padding: 8% 0%; */
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#extraService div article div h4 {
+  font-size: 0.9vw;
+}
+#extraService div article div img {
+  /* display: flex;
+  justify-content: end; */
+  width: 13%;
+  /* margin-top: -20%; */
+  transform: translateY(-100%);
+  height: 5%;
+  background-color: rgb(207, 226, 254);
+  padding: 2% 2%;
+  border-radius: 100%;
+  border: 3px solid rgb(255, 255, 255);
+}
+/*  Section: Supplier by region */
+#supplyRegion {
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  height: auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding-bottom: 0.75%;
+}
+#supplyRegion h2 {
+  font-size: 1.4vw;
+  margin-bottom: 2%;
+}
+#supplyRegion #flagNname #first-row {
+  display: flex;
+  margin-bottom: 3%;
+}
+#supplyRegion #flagNname #second-row {
+  display: flex;
+  margin-bottom: 3%;
+}
+#supplyRegion #flagNname article {
+  display: flex;
+  width: 100%;
+}
+#supplyRegion #flagNname article img {
+  width: 16%;
+  height: auto;
+}
+#supplyRegion #flagNname article div {
+  padding-left: 8%;
+}
+#supplyRegion #flagNname article h4 {
+  font-size: 0.9vw;
+}
+#supplyRegion #flagNname article p {
+  opacity: 0.6;
+  font-size: 0.9vw;
 }
 
 /* Footer */
 
 /* Section: Subscription */
 #subscription {
-  /* padding: 5% 5%; */
   padding-top: 2%;
   padding-bottom: 2%;
   width: 100%;
@@ -788,13 +785,13 @@ main {
 }
 #subscription div input {
   border: none;
-  /* height: 50%; */
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   width: 12%;
   font-size: 0.9vw;
   padding-left: 1%;
-  border-radius: 5px;
+  border-radius: 3%;
+
   margin-right: 0.5%;
 }
 #subscription div p {
@@ -806,7 +803,7 @@ main {
   color: white;
   align-items: center;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 9%;
   background-color: #1170fb;
 }
 #subscription div p:hover {
@@ -865,10 +862,9 @@ main {
   cursor: pointer;
   width: 60%;
   margin-bottom: 0%;
-  /* text-align: left; */
   margin-left: -5%;
-  /* height: auto; */
 }
+
 /* Section: CopyRight bar */
 #copyright {
   padding-top: 1%;
@@ -882,8 +878,6 @@ main {
   background-color: rgb(226, 226, 229);
   padding-left: 11%;
   padding-right: 11%;
-  /* margin-left: 11%;
-  margin-right: 11%; */
 }
 #copyright p {
   font-size: 0.9vw;
