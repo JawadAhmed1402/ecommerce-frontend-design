@@ -500,6 +500,14 @@ input[type="range"] {
   height: auto;
   width: 20%;
 }
+#content-area #prdouct-list .product .favourite {
+  width: 3%;
+  height: 2%;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 14%;
+  margin-right: 1%;
+}
 #content-area #prdouct-list .product .description {
   font-size: 1vw;
   margin-bottom: 3%;
