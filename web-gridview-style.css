@@ -514,6 +514,7 @@ input[type="range"] {
   background-color: rgb(229, 231, 233);
 }
 #content-area #prdouct-list #list .product {
+  /* position: absolute; */
   cursor: pointer;
   height: auto;
   background-color: white;
@@ -521,6 +522,7 @@ input[type="range"] {
   padding-bottom: 5%;
   width: 100%;
   margin-right: 0%;
+  transition: all 1.5s ease;
   /* gap: 5%; */
 }
 #content-area #prdouct-list #list {
@@ -531,7 +533,8 @@ input[type="range"] {
   gap: 1.2%;
 }
 #content-area #prdouct-list #list .product:hover {
-  transform: scale(1.02);
+  transform: rotateY(360deg) scale(1.2);
+  /* transform: scale(1.02); */
 }
 #content-area #prdouct-list #list .product .pImage {
   /* display: flex;

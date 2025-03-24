@@ -613,9 +613,11 @@ main {
 #recommendedItems #products {
   height: auto;
 }
+#recommendedItems #products .recomdProd {
+  transition: all 1.5s ease;
+}
 #recommendedItems #products .recomdProd:hover {
-  transform: rotate(90turn) scale(1.05);
-  transition: all smooth 0.2s;
+  transform: rotateY(360deg) scale(1.2);
 }
 #recommendedItems #products #first-row {
   margin-top: 1%;
