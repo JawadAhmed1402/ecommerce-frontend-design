@@ -175,6 +175,7 @@ input:focus {
 #menu-bar #shipNlanguage img {
   height: auto;
   width: 20%;
+  /* cursor: pointer; */
 }
 main {
   width: 100%;
@@ -215,6 +216,7 @@ main {
 #categoryNlogin img {
   width: 50%;
   height: 10%;
+  cursor: pointer;
 }
 #categoryNlogin #login {
   width: 25%;
@@ -394,7 +396,8 @@ main {
   width: 31.5%;
   height: auto;
 }
-#interiorProducts .left-asideimg {
+.left-asideimg {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   object-fit: cover;
