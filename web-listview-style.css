@@ -27,6 +27,9 @@ body {
   width: 13%;
   height: auto;
 }
+#brandImage {
+  cursor: pointer;
+}
 #searchbarNBtn {
   display: flex;
   width: 40%;
